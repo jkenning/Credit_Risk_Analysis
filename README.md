@@ -23,18 +23,63 @@ Credit risk is an unbalanced classification problem and we can expect good loans
 
 Tools and software: Python 3.7.9, Jupyter Notebook 6.1.4, imbalanced-learn and scikit-learn libraries, Visual Studio Code 1.54.3
 
-Dataset: 
+Dataset: ["LoanStats_2019Q1.csv"]()
 
 ## Comparison of Machine Learning Model Results
 
+The .csv data file was read and basic cleaning of the data performed. The data was then split into training and testing datasets prior to analyses being performed.
+
 **Oversampling**
+
+![]()
+
+Figure. 1 - Results
+* Accuracy  0.65
+* Precision 0.99
+* Recall    0.70
 
 **SMOTE Oversampling**
 
+![]()
+
+Figure. 2 - Results
+* Accuracy  0.64
+* Precision 0.99
+* Recall    0.64
+
 **Undersampling**
+
+![]()
+
+Figure. 3 - Results
+* Accuracy  0.52
+* Precision 0.99
+* Recall    0.45
 
 **Combination (Over and Under) Sampling**
 
+![]()
+
+Figure. 4 - Results
+* Accuracy  0.63
+* Precision 0.99
+* Recall    0.57
+
 **Balanced Random Forest Classifier**
 
+![]()
+
+Figure. 5 - Results
+* Accuracy  0.78
+* Precision 0.99
+* Recall    0.87
+
 **Easy Ensemble AdaBoost Classifier**
+
+![]()
+
+Figure. 6 - Results
+* Accuracy  0.78
+* Precision 0.99
+* Recall    0.87
+
